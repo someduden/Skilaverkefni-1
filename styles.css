@@ -1,0 +1,37 @@
+header{
+    background-color: cadetblue;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px;
+    padding: 10px;
+}
+
+main{
+    background-color: beige;
+    padding: 10px;
+}
+
+section{
+    background-color: honeydew;
+    padding: 10px;
+    margin: 10px;
+}
+
+caption{
+   font-weight: bold;
+   font-size: medium;
+}
+
+.listi{
+    margin: 0px;
+    padding-left: 20px;
+}
+
+footer{
+    background-color: burlywood;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
