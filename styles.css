@@ -20,12 +20,16 @@ section{
 
 caption{
    font-weight: bold;
-   font-size: medium;
+   font-size: large;
 }
 
 .listi{
     margin: 0px;
     padding-left: 20px;
+}
+
+th, td{
+    padding: 5px;
 }
 
 footer{
@@ -34,4 +38,29 @@ footer{
     display: flex;
     align-items: center;
     justify-content: space-around;
+}
+
+/*
+    AAAAAAAAAA Afhverju er myndin of stór til að passa á skjáinn?! AFHVERJU GERIRU EKKI BARA ÞAÐ SEM ÉG VILL!? ÞETTA VIRKAR FULLKOMLEGA Í ÖLLU NEMA FULL SCREEN
+*/
+
+.tab2{
+    background-image: url(/myndir/WIP.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right top;
+}
+
+.tab2 p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 850px;
+    gap: 3px;
+    font-weight: bold;
+}
+
+.section2{
+    display: flex;
+    gap: 100px;
 }
