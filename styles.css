@@ -1,10 +1,14 @@
+/*
+    Index síðan
+*/
+
 header{
     background-color: cadetblue;
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin: 0px;
-    padding: 10px;
+    padding: 15px;
 }
 
 main{
@@ -16,20 +20,7 @@ section{
     background-color: honeydew;
     padding: 10px;
     margin: 10px;
-}
-
-caption{
-   font-weight: bold;
-   font-size: large;
-}
-
-.listi{
-    margin: 0px;
-    padding-left: 20px;
-}
-
-th, td{
-    padding: 5px;
+    border: 1px solid black;
 }
 
 footer{
@@ -41,7 +32,76 @@ footer{
 }
 
 /*
-    AAAAAAAAAA Afhverju er myndin of stór til að passa á skjáinn?! AFHVERJU GERIRU EKKI BARA ÞAÐ SEM ÉG VILL!? ÞETTA VIRKAR FULLKOMLEGA Í ÖLLU NEMA FULL SCREEN
+    About me section
+*/
+
+.aboutme p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 1px dotted black;
+    padding: 10px;
+}
+
+#sexy{
+    width: 300px;
+    height: 300px;
+    display: block;
+    margin: auto;
+    border: 2px solid black;
+}
+
+/*
+    Áhugamál og töflu section
+*/
+
+.section2{
+    display: flex;
+    gap: 100px;
+}
+
+.hobby{
+    padding: 20px;
+    border: 2px solid blueviolet;
+    background-color: gainsboro;
+}
+
+.listi{
+    margin: 0px;
+    padding-left: 20px;
+}
+
+caption{
+   font-weight: bold;
+   font-size: large;
+}
+
+table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th, td{
+    padding: 5px;
+    background-color: blanchedalmond;
+}
+
+.tablearound{
+    padding: 20px;
+    border: 2px dotted black;
+    background-color: aliceblue;
+}
+
+/*
+Form section
+*/
+
+.form{
+    display: grid;
+    padding: 5px;
+    gap: 3px;
+}
+
+/*
+    Karfa og Opnunartímar síðurnar
 */
 
 .tab2{
@@ -50,6 +110,11 @@ footer{
     background-size: cover;
     background-position: right top;
 }
+
+/*
+    AAAAAAAAAA Afhverju er myndin of stór til að passa á skjáinn?! 
+    AFHVERJU GERIRU EKKI BARA ÞAÐ SEM ÉG VILL!? ÞETTA VIRKAR FULLKOMLEGA Í ÖLLU NEMA FULL SCREEN
+*/
 
 .tab2 p{
     display: flex;
@@ -60,7 +125,20 @@ footer{
     font-weight: bold;
 }
 
-.section2{
+/*
+    Takk síðan
+*/
+
+.takkbody{
+    background-color: burlywood;
+}
+
+.takkbody p{
     display: flex;
-    gap: 100px;
+    justify-content: center;
+    align-items: center;
+    height: 850px;
+    gap: 3px;
+    font-weight: bold;
+    font-size: larger;
 }
